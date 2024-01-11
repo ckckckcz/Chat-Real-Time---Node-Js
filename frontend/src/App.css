@@ -1,0 +1,109 @@
+body {
+  background-image: url("./assets/valley.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: url("https://wallpapers.com/images/featured/japan-4k-qbc6mlnwowjbszld.jpg");
+  /* Vertical center */
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.form-card {
+  width: 50%;
+  display: block;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  top: 0%;
+  left: 30%;
+  max-width: 350px;
+  padding: 10% 10% 10% 10%;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.6px);
+  -webkit-backdrop-filter: blur(9.6px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+}
+
+.form-title {
+  font-size: 42px;
+  font-family: "Avenir";
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #e8e8e8;
+  padding-bottom: 12px;
+}
+
+.form-subtitle {
+  font-size: 18px;
+  font-family: "Avenir";
+  letter-spacing: 0.5px;
+  color: #fff;
+  padding-bottom: 24px;
+}
+
+.auth {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 12px;
+}
+.auth-label {
+  position: absolute;
+  top: 8px;
+  left: 18px;
+  font-size: 11px;
+  color: white;
+  font-family: Avenir;
+  width: 100px;
+  font-size: 15px;
+}
+.auth-input {
+  background-color: transparent;
+  border: 2px solid #9b7da3 !important;
+  color: white;
+  font-family: "Avenir";
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 24px 18px 12px 18px;
+  width: calc(100% - 18px - 18px);
+  margin-bottom: 12px;
+}
+.auth-button {
+  width: 100%;
+  font-size: 20px;
+  height: 53px;
+  color: white;
+  background-color: #9b7da3;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-family: "Poppins";
+  cursor: pointer;
+  transition: all 0.44s ease;
+  -webkit-transition: all 0.44s ease;
+  -moz-transition: all 0.44s ease;
+}
+
+.chat-wrapper {
+  height: 80vh;
+  width: 80%;
+  margin-left: 10%;
+  color: white;
+  background: rgb(43, 47, 60);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
