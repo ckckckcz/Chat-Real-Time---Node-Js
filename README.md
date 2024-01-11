@@ -57,5 +57,3 @@ npm run start
 Done! Your Express server is on `localhost:3000` and connected to Chat Engine!
 
 All new "Sign Up" users are on Chat Engine, and their credentiuals are found upon "Login".
-
-To understand the code, please watch [this video]()!
